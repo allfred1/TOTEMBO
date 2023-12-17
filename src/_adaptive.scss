@@ -45,6 +45,12 @@
         width: 100%;
     }
 
+    .navbar__section-one {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .footer__navbar {
         flex-direction: column;
     }

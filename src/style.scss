@@ -21,6 +21,7 @@
 body {
     font-family: 'Montserrat';
     scroll-behavior: smooth;
+    background-color: #F1F1F1;
 }
 
 
@@ -49,6 +50,9 @@ a {
     text-transform: inherit;
 }
 
+.header {
+    margin-top: 30px;
+}
 
 .navbar {
     padding: 20px 0;
@@ -63,7 +67,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #FFF;
+    background: #F1F1F1;
 
     &__section-one {
         display: flex;
@@ -101,6 +105,11 @@ a {
             &-link {
                 @extend .font400;
                 transition: weight 0.3s;
+
+                color: #323232;
+                font-family: "Montserrat";
+                font-size: 18px;
+                text-transform: capitalize;
 
                 &:hover {
                     font-weight: 700;
