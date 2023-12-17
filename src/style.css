@@ -692,10 +692,10 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
     gap: 10px;
   }
   .footer__navbar {
@@ -844,6 +844,6 @@ a {
   .footer__navbar-one,
   .footer__navbar-two,
   .footer-navbar-three {
-    width: 100%;
+    width: 30%;
   }
 }

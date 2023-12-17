@@ -47,7 +47,7 @@
 
     .navbar__section-one {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 10px;
     }
 
@@ -142,7 +142,6 @@
 
     .leaders-card-sale {
         padding: 10px;
-        ;
         font-size: 16px;
     }
 
@@ -221,7 +220,7 @@
     .footer__navbar-one,
     .footer__navbar-two,
     .footer-navbar-three {
-        width: 100%;
+        width: 30%;
     }
 
 }

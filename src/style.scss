@@ -148,6 +148,7 @@ a {
         position: relative;
 
         filter: drop-shadow(6px 6px 15px rgba(132, 132, 132, 0.30));
+
         border-radius: 10px;
         background: #E1E1E1;
 
@@ -486,7 +487,6 @@ a {
     &-card {
         position: relative;
         border-radius: 10px;
-
 
         &:nth-of-type(1) {
             background: linear-gradient(0deg, rgba(50, 50, 50, 0.70) 0%, rgba(50, 50, 50, 0.70) 100%), url(./images/news/1.jpg) center / cover no-repeat;
